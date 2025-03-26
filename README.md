@@ -1,69 +1,87 @@
-# Welcome to your Lovable project
+# Visa Vista
 
-## Project info
+## Project Overview
+Visa Vista is a web application designed to assist individuals in navigating the UK visa process. It provides tools for eligibility checking, document verification, cost estimation, and more, helping users make informed decisions about their visa applications.
 
-**URL**: https://lovable.dev/projects/113e11dd-f70b-4b2f-bd66-c2fbbc81697c
+## Features
+- **Visa Eligibility Checker**: Determine which UK visa you qualify for.
+- **Document Checklist**: Verify required documents for various visa categories.
+- **Visa Comparison Tool**: Compare different visa types and their requirements.
+- **Cost Estimator**: Calculate the expected costs of applying for a visa.
+- **UK Cities & Visa Offices**: Find information on major UK cities and visa application centers.
+- **Resource Links**: Access official UK government pages and useful visa guides.
 
-## How can I edit this code?
+  
+![Visavista](https://github.com/user-attachments/assets/003afbb0-9f09-4e51-b3c8-652f411735fb)
 
-There are several ways of editing your application.
+## Installation & Setup
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (latest stable version)
+- npm or bun package manager
+- Git (optional, for version control)
+## Link to Project - https://visa-vista-wikp.vercel.app/
+![uk visa office](https://github.com/user-attachments/assets/4da90731-3ba6-4f64-b2a6-1d9d3a64aada)
 
-**Use Lovable**
+![Screenshot_3](https://github.com/user-attachments/assets/a07af422-92b1-4f66-94f5-ab82aa3bf4d6)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/113e11dd-f70b-4b2f-bd66-c2fbbc81697c) and start prompting.
+![Screenshot_2](https://github.com/user-attachments/assets/1fd952ef-60fb-4cc4-b197-02d00c47ec4a)
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd Visa_Vista-main
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+   or using bun:
+   ```sh
+   bun install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open the application in your browser at `http://localhost:5173` (default Vite port).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Technologies Used
+- **Frontend**: React, TypeScript
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **State Management**: React Hooks
+- **Other Libraries**: shadcn/ui for UI components
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Directory Structure
+```
+Visa_Vista-main/
+│── public/            # Static assets
+│── src/
+│   ├── components/    # Reusable UI and feature components
+│   ├── hooks/         # Custom React hooks
+│   ├── lib/           # Utility functions and data
+│   ├── pages/         # Application pages
+│   ├── utils/         # Additional helper functions
+│   ├── App.tsx        # Root component
+│   ├── main.tsx       # Main entry point
+│── package.json       # Project dependencies
+│── tailwind.config.ts # Tailwind CSS configuration
+│── vite.config.ts     # Vite configuration
 ```
 
-**Edit a file directly in GitHub**
+## Contribution Guidelines
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature/new-feature`).
+3. Commit changes and push to your branch.
+4. Submit a pull request for review.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## License
+This project is licensed under the MIT License. See `LICENSE` for details.
 
-**Use GitHub Codespaces**
+## Contact
+For questions or suggestions, feel free to reach out via [GitHub Issues](<repository-url>/issues).
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/113e11dd-f70b-4b2f-bd66-c2fbbc81697c) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
