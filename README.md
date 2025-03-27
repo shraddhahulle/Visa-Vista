@@ -11,7 +11,8 @@ Visa Vista is a web application designed to assist individuals in navigating the
 - **UK Cities & Visa Offices**: Find information on major UK cities and visa application centers.
 - **Resource Links**: Access official UK government pages and useful visa guides.
 
-  
+## Link to Project - https://visa-vista-wikp.vercel.app/
+
 ![Visavista](https://github.com/user-attachments/assets/003afbb0-9f09-4e51-b3c8-652f411735fb)
 
 ## Installation & Setup
@@ -20,7 +21,7 @@ Ensure you have the following installed:
 - Node.js (latest stable version)
 - npm or bun package manager
 - Git (optional, for version control)
-## Link to Project - https://visa-vista-wikp.vercel.app/
+
 ![uk visa office](https://github.com/user-attachments/assets/4da90731-3ba6-4f64-b2a6-1d9d3a64aada)
 
 ![Screenshot_3](https://github.com/user-attachments/assets/a07af422-92b1-4f66-94f5-ab82aa3bf4d6)
